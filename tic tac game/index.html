@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Faizan Khan Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div id="intro">
+  <h1 class="glow-text">Faizan Khan</h1>
+  <h3>Crafted with Code & Creativity</p>
+</div>
+<div class="container" id="game" style="display:none;">
+  <h1>🎮 Tic Tac Toe</h1>
+  <div class="mode">
+  <button id="friendBtn" onclick="setMode('friend')">👨‍🤝‍👨 Friend</button>
+  <button id="computerBtn" onclick="setMode('computer')">🤖 Computer</button>
+</div>
+
+  <div id="board" class="board"></div>
+  <h2 id="status"></h2>
+
+  <button onclick="restartGame()">Restart</button>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
